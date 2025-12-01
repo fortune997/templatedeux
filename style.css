@@ -5,11 +5,11 @@
 }
 body {
   font-family: nunito;
-  /* overflow: hidden; */
+   overflow-x: hidden; 
 }
 /* section-hero */
 #sect-1 {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   min-height: 100vh;
   background-image: url("/src/assets/image/bg-hero.jpg");
   background-repeat: no-repeat;
@@ -52,7 +52,7 @@ header {
 }
 h2 {
   color: var(--primary-color);
-  font-size: 2rem;
+  font-size: 60px;
   display: flex;
   align-items: center;
   /* gap:2 px; */
@@ -100,6 +100,71 @@ nav a:hover {
    svg{
     
   }
+  #main-1{
+    /* border: 1px solid green; */
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    margin:     70px auto  150px auto;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+  }
+  .left {
+  width: 50%;
+  /* border: 1px solid yellow; */
+}
+.right{
+ width: 50%;
+ display: flex;
+ justify-content: flex-end;
+}
+.right img {
+  width: 100%;
+  animation: rote 30s infinite;
+}
+@keyframes rote {
+    from {
+        transform: rotate(0deg);
+}
+  to {
+        transform: rotate(360deg);
+}
+}
+
+.left {
+  width: 50%;
+  /* border: 1px solid yellow; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+  .left h1{
+  font-size: 60px;
+ margin-bottom: 20px;
+}
+ 
+ .left p{
+  font-size: 16px;
+  margin-bottom: 30px;
+  /* border: 1px solid yellow; */
+  line-height: 1.5rem;
+}
+ main button a{
+  font-size: 1.4rem;
+  color: #fff;
+  /* padding: 20px 25px; */
+  text-decoration: none;
+}
+main button {
+  padding: 16px 40px;
+  width: 250px;
+}
+
+
+
+
+
 /* RESPONSIF */
 @media (max-width: 768px) {
   #sect-1 {
@@ -124,4 +189,25 @@ nav a:hover {
     nav{
     display: none;
     }
+    /* main-1 */
+#main-1{
+  flex-direction: column;
+  align-items: center;
+  }
+.right {
+  width: 100%;
+ 
 }
+.left {
+  width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+main button {
+ margin: auto;
+}
+.icon {
+    display: block;
+  }
+}
+
