@@ -21,6 +21,7 @@ body {
    position: relative;
   width: 90%;
   margin: auto;
+   max-width: 1600px;
     
 }
 /* .cover{
@@ -114,6 +115,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     width: 95%;
+    
   }
   .left {
   width: 50%;
@@ -165,8 +167,26 @@ main button {
   padding: 16px 40px;
   width: 250px;
 }
+#sect-2 {
+  
+    display: flex;
+    gap: 5px;
+    margin: auto;
+    padding: 70px 0 0 0;
+    /* border: 1px solid red; */
+    width: 90%;
+    max-width: 1600px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
 
-
+.col{
+ width: 24.5%;
+ /* border: 1px solid rgb(248, 236, 236); */
+ background-color: rgb(250, 247, 247);
+ padding: 10px;
+}
 
 
 
@@ -180,6 +200,9 @@ main button {
   }
   nav {
     display: none;
+  }
+  #sect-2 {
+    width: 100%;
   }
 }
 
@@ -226,6 +249,11 @@ h2 {
 nav ul {
   gap: 20px;
 }
+  #sect-2 {
+    margin: auto;
+   
+    width: 95%;
+}
 }
 
 @media (max-width: 350px) {
@@ -241,4 +269,13 @@ nav ul {
   gap: 20px;
 }
 
+}
+
+
+@media (max-width: 832px) {
+  
+.col{
+ width: 47%;
+ 
+}
 }
