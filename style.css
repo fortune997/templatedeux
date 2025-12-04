@@ -212,6 +212,8 @@ main button {
   border: 1px solid salmon;
   width: 49.5%;
   min-height: 100vh;
+  display: block;
+  gap: 20px;
 
 
 }
@@ -245,6 +247,147 @@ main button {
 justify-self:end ;
     align-self: start;
  }
+ .detail span{
+  color: #fea116;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+   gap: 5px;
+ }
+ span hr{
+  width: 40px;
+  border: 1px solid #fea116;
+ }
+
+ .detail h2{
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: navy;
+  display:flex;
+  align-items: center;
+  /* justify-content: center; */
+  
+
+ }
+.detail img{
+  height: 30px;
+ }
+
+ .detail P{
+  margin-top: 30px;
+ }
+  .detail .prin  {
+  margin-top: 20px;
+  display: flex;
+  gap: 200px;
+ }
+ 
+ .detail .prin .second {
+  border-left:  3px solid #fea116;
+  height: 70px;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+  /* display: flex; */
+ }
+ .detail .prin .second strong{
+ font-size: 50px;
+ color:  #fea116;
+ }
+.detail .prin .second P{
+ display: flex;
+ }
+ .detail button{
+ display: flex;
+ margin-top: 40px;
+ }
+
+ /* sect-4 */
+
+#sect-4 {
+  /* border: 1px solid black; */
+    /* min-height: 100vh; */
+    width: 90%;
+    margin: auto;
+}
+
+.bloc-1{
+  /* border: 1px solid rgb(48, 177, 31);
+  margin: 34px ; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.bloc-1 P {
+  font-size: 20px;
+  margin-bottom: 10px;
+  /* display: flex; */
+  /* border: 1px solid  black; */
+ 
+}
+ h2 {
+  display: flex;
+  justify-content: center;
+ /* border:1px solid #7535f4; */
+}
+
+
+.bloc-1  hr{
+width: 40px;
+  /* border: 1px solid #fea116; */
+  /* text-align: center; */
+}
+
+.bloc-2{
+width: 60%;
+  /* border: 3px solid #a6ec0f; */
+  margin: 34px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  /* gap: 20px; */
+  
+}
+.card{
+/* border: 3px solid #6d30f0; */
+display: flex;
+margin-bottom: 20px;
+align-items: center;
+justify-content: center;
+gap: 10px;
+width: 24%;
+border-bottom:2px solid rgba(128, 128, 128, 0.233);
+}
+.text-card{
+/* border: 2px solid #fe12c3; */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+gap: 2px;
+
+}
+#one {
+  
+  border-bottom:2px solid #fea116;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* RESPONSIF */
 @media (max-width: 768px) {
